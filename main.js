@@ -61,7 +61,7 @@ function displayData() {
 		ageCell.innerHTML = userData[i].age;
 		actionCell.innerHTML = '<button onclick="editUser(' + i + ')">Edit</button> <button onclick="deleteUser(' + i + ')">Delete</button>';
 		//console.log(row);
-		console.log(firstNameCell, middleNameCell, lastNameCell, ageCell, actionCell);
+		//console.log(firstNameCell, middleNameCell, lastNameCell, ageCell, actionCell);
 	}
 }
 
